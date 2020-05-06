@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="quizContainer">
+
+            <form class="quizform">
+                 <div id="quiz">
+                   
+                    <!-- <legend id="quizLegend">Quiz</legend>  -->
+                    <div class="question" ><br> </div>
+                    <input class="answer" type="radio" id="r-0" name="choices"><label id="ans-0"></label><br>
+                    <input class="answer" type="radio" id="r-1" name="choices"><label id="ans-1"></label><br>
+                    <input class="answer" type="radio" id="r-2" name="choices"><label id="ans-2"></label><br>
+                    <!-- <input class="answer" type="radio" id="ans-0" name="choices"><label id="ch-3"></label><br> -->
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                 </div>
+                <br>
+                <br>
+
+            </form>
+            <div class="btnDiv">
+                <!-- <i class="fas fa-search"></i>
+                <button value="submit" class="btn" id="prev">Persvious</button>-->
+             <!-- <i class="fas fa-arrow-alt-circle-right" id="prev"></i>   -->
+                 <button value="submit" class="btn" id="prev">Prev</button> 
+                <button value="submit" class="QuestionNum" id="q-0">1</button>
+                <button value="submit" class="QuestionNum" id="q-1">2</button>
+                <button value="submit" class="QuestionNum" id="q-2">3</button>
+                <button value="submit" class="QuestionNum" id="q-3">4</button>
+                <button value="submit" class="QuestionNum" id="q-4">5</button>
+                <!-- <i class="fas fa-arrow-alt-circle-left " id="next"></i>-->
+                <button value="submit" class="btn" id="next">Next</button> 
+                <button value="submit" class="btn" id="mark" style="margin-left: 50px">mark</button>
+            </div>
+        <br>
+            
+            <!-- <div class="btnDiv">
+                <button value="submit" class="btn" id="flag">mark</button>
+            </div> -->
+            <br>
+            <!-- <div class="submitDiv">
+                <input id="submit" type="submit" value="SUBMIT">
+            </div> -->
+
+
+        </div>
+        <div id="flagConainer">
+            <div id="flagfieldset">
+                <h3>Marked Questions</h3>
+                <div class="flagNoContaioner">
+                    <div id="MarkQNum-0" class="MarkQNum">1</div>
+                    <div id="MarkQNum-1" class="MarkQNum">2 </div>
+                    
+                    <div id="MarkQNum-2" class="MarkQNum">3</div>
+                    <div id="MarkQNum-3" class="MarkQNum">4 </div>
+                    <div id="MarkQNum-4" class="MarkQNum">5</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

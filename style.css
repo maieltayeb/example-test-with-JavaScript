@@ -1,0 +1,158 @@
+#container {
+  display: flex;
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10%;
+
+}
+
+.fa, .fas {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+#quizContainer {
+  border: 2px solid;
+  padding: 20px;
+  width: 75%;
+  margin-right: 5px
+  /* height: 100%; */
+}
+
+.btnDiv {
+  text-align: center;
+}
+
+.btn {
+
+  text-align: center;
+}
+
+#next {
+  border-radius: 5px;
+  font: inherit;
+}
+
+#next:hover {
+
+ 
+    background-color: yellow;
+ 
+  cursor: pointer;
+}
+
+.active {
+  display: none;
+}
+
+#prev {
+  border-radius: 5px;
+  font: inherit;
+}
+
+#prev:hover {
+  
+    background-color: yellow;
+  
+  cursor: pointer;
+}
+
+#mark {
+  /* border-radius: 5px; */
+  font: inherit;
+}
+
+#mark:hover {
+  background-color: yellow;
+  
+  cursor: pointer;
+}
+
+.QuestionNum {
+  width: 50px;
+  /*border-radius: 10px;*/
+
+}
+
+.QuestionNum:hover {
+  cursor: pointer;
+  background-color: yellow;
+
+ 
+}
+
+
+.question:hover {
+  cursor: pointer;
+}
+
+.answer:hover {
+  cursor: pointer;
+}
+
+.title {
+  color: teal;
+}
+
+.answer {
+  font-weight: 200;
+}
+
+.question {
+  font-weight: bold;
+}
+
+/* #quizLegend {
+  font-weight: bold;
+  font-style: oblique;
+} */
+
+#quiz {
+  width: 20%;
+    margin-left: 10%;
+    width: 20%;
+    height: 100px;
+    margin-left: 10%;
+    
+    margin-bottom: 50px;
+    margin-top: 10px;
+  /* text-align: center; */
+
+}
+
+/* /////// */
+#flagConainer {
+  border: 2px solid;
+  padding: 20px;
+  width: 15%;
+
+}
+
+ #flagFieldset {
+  text-align: center;
+
+} 
+
+
+.MarkQNum {
+  /* border-radius: 50%; */
+  background-color: gray;
+
+  text-align: center;
+  /* padding: 1rem; */
+  margin: 1rem;
+  width: 30%;
+}
+
+.MarkQNum:hover {
+  cursor: pointer;
+}
+
+
+
+.flagNoContaioner {
+  text-align:center;
+}
+
+/* ///////////////////////// */
